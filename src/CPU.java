@@ -16,7 +16,7 @@ public class CPU extends ComputerParts{
         System.out.println("Your " + getName() + " cpu has gotten a score of " + benchmarkScore + ".");
         temperature = (int)(56 + Math.random() * 45);
         System.out.println("Your current cpu temperature is at " + temperature + "C.");
-        judgement();
+        judgment();
         return benchmarkScore;
     }
 }

@@ -17,7 +17,7 @@ public class GraphicsCard extends ComputerParts{
             benchmarkScore = 0;
         }
         System.out.println("Your " + getName() + " gpu has gotten a score of " + benchmarkScore + ".");
-        judgement();
+        judgment();
         return benchmarkScore;
     }
 }

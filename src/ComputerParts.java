@@ -35,7 +35,7 @@ public class ComputerParts {
         }
     }
 
-    public void judgement() {
+    public void judgment() {
         if (cost > 600) {
             System.out.println("Did you really pay " + cost + " for a(n) " + name + "? \nYou best hope that part was worth it, or you just got clowned on by scalpers.");
         }
