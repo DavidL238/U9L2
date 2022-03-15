@@ -2,7 +2,7 @@ public class CPU extends ComputerParts{
     private int temperature;
     private int benchmarkScore;
 
-    public CPU (String name, int cost, int manufactureYear) {
+    public CPU (String name, double cost, int manufactureYear) {
         super(name, cost, manufactureYear);
         temperature = 56;
     }

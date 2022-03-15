@@ -1,10 +1,10 @@
 public class ComputerParts {
     private String name;
-    private int cost;
+    private double cost;
     private int manufactureYear;
     private boolean isInstalled;
 
-    public ComputerParts (String name, int cost, int manufactureYear) {
+    public ComputerParts (String name, double cost, int manufactureYear) {
         this.name = name;
         this.cost = cost;
         this.manufactureYear = manufactureYear;
@@ -48,7 +48,7 @@ public class ComputerParts {
         return name;
     }
 
-    public int getCost() {
+    public double getCost() {
         return cost;
     }
 
@@ -58,5 +58,9 @@ public class ComputerParts {
 
     public boolean isInstalled() {
         return isInstalled;
+    }
+
+    public void setCost(double cost) {
+        this.cost = cost;
     }
 }
