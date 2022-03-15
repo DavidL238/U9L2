@@ -19,4 +19,9 @@ public class CPU extends ComputerParts{
         judgment();
         return benchmarkScore;
     }
+
+    public int checkTemperature() {
+        temperature -= 3;
+        return temperature;
+    }
 }
